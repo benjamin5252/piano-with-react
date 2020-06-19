@@ -1,0 +1,128 @@
+/* ------------------ */
+/* $global */
+/* ------------------ */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  /* ------------------ */
+  /* $grid */
+  /* ------------------ */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1142px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .push {
+      margin-left: auto;
+  }
+
+  .header{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: #fefefe;
+    .header-inner{
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            padding-left: 16px;
+            display: block;
+        }
+        .options{
+            display: none;
+            
+            .header-item{
+                cursor: pointer;
+                display: block;
+                padding: 0 16px;
+                h2{
+                    color: black;
+                }
+            }
+            @media (min-width: 768px){
+                &{
+                    display: flex ; 
+                }
+            }
+            
+        }
+        
+        .hamburger{
+            cursor: pointer;
+            display: flex;
+            height: 50%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 4;
+            .bar{
+                width: 32px;
+                height: 2px;
+                margin: 4px 2px;
+                background-color: #000;
+                transition: all 0.3s;
+            }
+            .bar-cross{
+                &:first-child{
+                    margin: 0px 2px;
+                    transform: translateY(1px) rotate(-45deg);
+                }
+                &:last-child{
+                    margin: 0px 2px;
+                    transform: translateY(-1px) rotate(45deg);
+                }
+            }
+            @media (min-width: 768px){
+                &{
+                    display: none ; 
+                }
+            }
+        }
+    }
+    .pop-up-menu{
+       
+        height: 100vh;
+        transition: all 0.3s;
+        @media (min-width: 768px){
+            &{
+                display: none ; 
+            }
+        }
+        &.pop-close{
+            height: 0;
+            visibility: hidden;
+            opacity: 0;
+            .pop-up-menu-inner{
+                padding-top: 0;
+                .pop-up-menu-item{
+                     padding: 0 0;
+            }
+            }
+        }
+        
+        .pop-up-menu-inner{
+            width: 50%;
+            padding-top: 64px;
+            margin: 0 auto;
+            transition: all 0.3s;
+            .pop-up-menu-item{
+                cursor: pointer;
+                padding: 20px 0;
+                border-bottom: 1px solid #484848;
+            }
+            
+        }
+        
+    }
+}
+ 

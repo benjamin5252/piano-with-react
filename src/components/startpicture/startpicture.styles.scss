@@ -1,0 +1,31 @@
+.start-picture{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+    background-image: url(https://www.thecuriouspianoteachers.org/wp-content/uploads/2020/03/curious-house-83-of-230.jpg);
+    background-size: cover;
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 120px;
+        border-radius: 30px;
+        position: relative;
+        top: 48px;
+        background-color: #fefefe;
+        opacity: 0.6;
+        transition: all 0.3s;
+        &:hover{
+            opacity: 1; 
+        }
+        h2{
+            color: black;
+        }
+    }
+        
+}
+

@@ -1,0 +1,89 @@
+ /* ------------------ */
+/* $global */
+/* ------------------ */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+/* ------------------ */
+/* $grid */
+/* ------------------ */
+
+
+.push {
+    margin-left: auto;
+}
+/* ------------------ */
+/* $component */
+/* ------------------ */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1142px;
+    padding-left: 16px;
+    padding-right: 16px;
+        .piano-keyboard{
+        width: 100%;
+        padding-top: 50vh;
+        display: flex;
+        .piano-key{
+        display: flex;
+        flex: 1 1 auto;
+        min-width: 10px;
+        background-color: #fefefe;
+        border: 1px solid black;
+        height: 160px;
+        
+        .white-active{
+            height: 160px;
+            width: 100%;
+            &:active:after{
+                content: "";
+                display:block;
+                position:absolute;
+                top: 0;
+                left:0;
+                height: 100%;
+                width: 100%;
+                background-color:black;
+                opacity: 0.2;
+            }
+        }
+
+        &.black{
+            background-color: gray;
+            height: 100px;
+            width: 75%;
+            position: absolute;
+            top: 0;
+            left: 65%;
+            z-index:1;
+            &:active:after{
+                content: "";
+                display:block;
+                position:absolute;
+                top: 0;
+                left:0;
+                height: 100%;
+                width: 100%;
+                background-color: black;
+                opacity: 0.2;
+            }
+        }
+        
+        }
+
+
+    }
+  }
+.loading-audio{
+    position: absolute;
+    top: 30vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

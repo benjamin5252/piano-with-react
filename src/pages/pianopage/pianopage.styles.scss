@@ -1,0 +1,29 @@
+/* ------------------ */
+/* $global */
+/* ------------------ */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    text-decoration: none;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  /* ------------------ */
+  /* $grid */
+  /* ------------------ */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1142px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .push {
+      margin-left: auto;
+  }
+
+  .piano-page{
+    height: 75vh;
+  }
