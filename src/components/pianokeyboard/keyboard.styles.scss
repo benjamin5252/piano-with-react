@@ -85,5 +85,19 @@
     top: 30vh;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 28px;
 }
+
+.record-bar{
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    .record-item{
+        color: black;
+        border: 1px solid black;
+        display: inline-block;
+    }
+
+}
+
 

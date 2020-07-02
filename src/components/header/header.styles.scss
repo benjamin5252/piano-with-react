@@ -26,12 +26,14 @@
 
   .header{
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 3;
     background-color: #fefefe;
     .header-inner{
         height: 56px;
         display: flex;
+        border-bottom: solid 1px black;
         justify-content: space-between;
         align-items: center;
         .logo{
