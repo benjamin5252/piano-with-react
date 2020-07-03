@@ -72,23 +72,17 @@ class Keyboard extends React.Component {
 
   handlePlay = () => {
 
-   
-    this.setState({isPlaying : true}, 
+   if(!this.state.isPlaying && !this.state.isRecording){
+     this.setState({isPlaying : true}, 
       () => {
-        
           this.state.record.forEach((item, i) => {
             setTimeout(() => {
               this.sampler.triggerAttackRelease(this.state.correspond[item[0]], '0.75')
-            }, i * 800);
-            
+            }, i * 800);  
           });
-        
-      },
-        
-      );
+      });
       setTimeout(()=>{this.setState({isPlaying : false});}, this.state.record.length * 800);
-      
-
+   }
   };
 
   
