@@ -97,8 +97,6 @@ class Keyboard extends React.Component {
 
   render() {
     const { keys, isLoaded, record, isRecording, isPlaying } = this.state;
-    let btnRecording =  isRecording ? "btn-recording" : "";
-    let btnPlaying = isPlaying ? "btn-playing" : "";
     if (isLoaded) {
       return (
         <div className="container">
@@ -106,8 +104,8 @@ class Keyboard extends React.Component {
           { record.map(item => (<div className="record-item" key={item[2]}>{item[0]}</div>)) }
           </div>
           <ControlBar 
-            btnRecording={btnRecording} 
-            btnPlaying={btnPlaying}
+            isRecording={isRecording}
+            isPlaying={isPlaying}
             onRecord={() => this.setState({ isRecording: !isRecording })} 
             onPlay={() => this.handlePlay()} onClear={() => this.handleClear()} 
           />

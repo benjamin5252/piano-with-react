@@ -4,7 +4,9 @@ import './controlbar.styles.scss';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faTrash } from '@fortawesome/free-solid-svg-icons'
 
-const ControlBar = ({ btnRecording, btnPlaying, onRecord, onPlay, onClear }) => {
+const ControlBar = ({ isRecording, isPlaying, onRecord, onPlay, onClear }) => {
+    let btnRecording =  isRecording ? "btn-recording" : "";
+    let btnPlaying = isPlaying ? "btn-playing" : "";
     return(
         <div className="control-bar">
             <div className={`btn-control ${btnRecording}`} onClick={onRecord}>
