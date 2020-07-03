@@ -12,7 +12,6 @@ const ControlBar = ({ isRecording, isPlaying, onRecord, onPlay, onClear }) => {
             <div className={`btn-control ${btnRecording}`} onClick={onRecord}>
                 <div className="circle">
                     <div className={`circle-inner`}>
-
                     </div>
                 </div>
             </div>

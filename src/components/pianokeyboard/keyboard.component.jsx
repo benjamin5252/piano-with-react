@@ -23,13 +23,12 @@ class Keyboard extends React.Component {
       record: []
     };
 
+    // load audio file
     this.sampler = new Tone.Sampler(SAMPLE_DATA, {
       onload: () => {
         this.setState({ isLoaded: true });
       }
     }).toMaster();
-    
-   
   }
 
   componentDidMount() {
@@ -57,6 +56,7 @@ class Keyboard extends React.Component {
     Tone.Transport.stop();
   }
 
+  // handle attack on each key
   handleAttack = id => {
     this.sampler.triggerAttack(this.state.correspond[id]);
     if(this.state.isRecording){
@@ -66,12 +66,13 @@ class Keyboard extends React.Component {
     };
   };
 
+  // handle release on each key
   handleRelease = id => {
     this.sampler.triggerRelease(this.state.correspond[id]);
   };
 
+  // handle play of record
   handlePlay = () => {
-
    if(!this.state.isPlaying && !this.state.isRecording){
      this.setState({isPlaying : true}, 
       () => {
@@ -86,7 +87,7 @@ class Keyboard extends React.Component {
   };
 
   
-
+  // clear the record
   handleClear = () => {
     this.setState(
         {record: []}
