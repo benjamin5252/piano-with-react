@@ -1,76 +1,32 @@
-## A piano react app with recording function
+## A piano react web app with recording function
+
+## Technology used
+React.js, SCSS, HTML for ui construction
+Tone.js for audio 
 
 ## Demo:
 
 https://piano-benjamin5252.netlify.app/
 
-## 
+## Screen shots and instructions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Cover page
+Press start to enter the piano keyboard page
+![](https://i.imgur.com/MwlmLvc.jpg)
 
-## Available Scripts
+### Piano keyboard
+Click on the keyboard to play
+![](https://i.imgur.com/llsWRy5.png)
 
-In the project directory, you can run:
+### Recording control
+The three icon in the top middle part of the page is for the record of the piano notes 
+<img width="941" alt="Screenshot 2021-12-29 at 00 23 11" src="https://user-images.githubusercontent.com/31298786/147586273-a7e9eb34-60cb-4fdf-9cca-cc2963e809ee.png">
 
-### `yarn start`
+Switch the recording icon into rectangle to start record the notes played
+![](https://i.imgur.com/kJZs6M3.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Switch back the recording icon to stop recording and click the play icon to play the notes recorded
+<img width="612" alt="Screenshot 2021-12-29 at 00 49 54" src="https://user-images.githubusercontent.com/31298786/147588620-ced3e628-6121-4cde-9413-11f296e3ddad.png">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The garbage can icon is for deleting the notes recorded
+<img width="636" alt="Screenshot 2021-12-29 at 00 50 31" src="https://user-images.githubusercontent.com/31298786/147588684-ea759abe-128e-4290-a483-b882c1d9bc10.png">
