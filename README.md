@@ -26,7 +26,7 @@ Switch the recording icon into rectangle to start record the notes played
 ![](https://i.imgur.com/kJZs6M3.png)
 
 Switch back the recording icon to stop recording and click the play icon to play the notes recorded
-<img width="612" alt="Screenshot 2021-12-29 at 00 49 54" src="https://user-images.githubusercontent.com/31298786/147588620-ced3e628-6121-4cde-9413-11f296e3ddad.png">
+<img  alt="Screenshot 2021-12-29 at 00 49 54" src="https://user-images.githubusercontent.com/31298786/147588620-ced3e628-6121-4cde-9413-11f296e3ddad.png">
 
 The garbage can icon is for deleting the notes recorded
-<img width="636" alt="Screenshot 2021-12-29 at 00 50 31" src="https://user-images.githubusercontent.com/31298786/147588684-ea759abe-128e-4290-a483-b882c1d9bc10.png">
+<img  alt="Screenshot 2021-12-29 at 00 50 31" src="https://user-images.githubusercontent.com/31298786/147588684-ea759abe-128e-4290-a483-b882c1d9bc10.png">
