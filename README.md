@@ -24,10 +24,10 @@ The three icon in the top middle part of the page is for the record of the piano
 <img width="600"  src="https://user-images.githubusercontent.com/31298786/147586273-a7e9eb34-60cb-4fdf-9cca-cc2963e809ee.png">
 
 Switch the recording icon into rectangle to start record the notes played
-<img wdith="600"  src="https://i.imgur.com/kJZs6M3.png">
+<img width="600"  src="https://i.imgur.com/kJZs6M3.png">
 
 Switch back the recording icon to stop recording and click the play icon to play the notes recorded
-<img wdith="600"  src="https://user-images.githubusercontent.com/31298786/147588620-ced3e628-6121-4cde-9413-11f296e3ddad.png">
+<img width="600"  src="https://user-images.githubusercontent.com/31298786/147588620-ced3e628-6121-4cde-9413-11f296e3ddad.png">
 
 The garbage can icon is for deleting the notes recorded
-<img wdith="600"  src="https://user-images.githubusercontent.com/31298786/147588684-ea759abe-128e-4290-a483-b882c1d9bc10.png">
+<img width="600"  src="https://user-images.githubusercontent.com/31298786/147588684-ea759abe-128e-4290-a483-b882c1d9bc10.png">
