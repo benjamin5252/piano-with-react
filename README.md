@@ -1,7 +1,7 @@
 ## A piano react web app with recording function
 
 ## Technology used
-React.js, SCSS, HTML for ui construction \n
+React.js, SCSS, HTML for ui construction \
 Tone.js for audio 
 
 ## Demo:
