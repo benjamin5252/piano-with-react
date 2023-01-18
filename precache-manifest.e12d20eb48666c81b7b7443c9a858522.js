@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "610930cc5754be35b432ef7fcf71816f",
+    "revision": "c59d775e82cd510f28a4dc324b8034c6",
     "url": "/piano-with-react/index.html"
   },
   {
-    "revision": "fe2e1921e7d8e24df0ba",
+    "revision": "7c855fa239c6ab8b0af7",
     "url": "/piano-with-react/static/css/main.4a892cb6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piano-with-react/static/js/2.78f2d880.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe2e1921e7d8e24df0ba",
-    "url": "/piano-with-react/static/js/main.85d5827a.chunk.js"
+    "revision": "7c855fa239c6ab8b0af7",
+    "url": "/piano-with-react/static/js/main.cad9a8e7.chunk.js"
   },
   {
     "revision": "cb2d9f0d567422bf3323",
